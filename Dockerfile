@@ -1,10 +1,10 @@
 FROM mcpayment/ubuntu-java8
 
-ENV CB_DIR "/opt/clusterbrake"
-ENV CB_DEFAULT_DIR "/opt/clusterbrake.defaults"
-ENV CB_CONFIG "/etc/clusterbrake/clusterbrake.properties"
-ENV CB_CONFIG_DIR "/config"
-ENV CB_VERSION "1.0.8"
+ENV CB_DIR="/opt/clusterbrake" \
+	CB_DEFAULT_DIR="/opt/clusterbrake.defaults" \
+	CB_CONFIG="/etc/clusterbrake/clusterbrake.properties" \
+	CB_CONFIG_DIR="/config" \
+	CB_VERSION="1.0.9"
 
 WORKDIR ${CB_DIR}
 
